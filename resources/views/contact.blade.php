@@ -13,21 +13,20 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
-              <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1322.9461839897785!2d35.04585336406834!3d48.458594630651554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x679b3bb57aa14581!2sMoy+Komp%CA%B9yuter!5e0!3m2!1sru!2sua!4v1511876105324" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-lg-4">
             <h5 class="mb-0">Phone:</h5>
-            <div class="mb-4">123.456.7890</div>
+            <div class="mb-4">+38(096)101 87 17</div>
+            <div class="mb-4">+38(066)360 44 40</div>
             <h5 class="mb-0">Email:</h5>
-            <div class="mb-4">
-              <a href="mailto:name@example.com">name@example.com</a>
-            </div>
+            <div class="mb-4">my-computer@i.ua</div>
             <h5 class="mb-0">Address:</h5>
             <div class="mb-4">
-              3481 Melrose Place
+              Украина г.Днепр
               <br>
-              Beverly Hills, CA 90210
+              ул. Святослава Храброго(Чкалова) 10
             </div>
           </div>
         </div>
@@ -42,24 +41,24 @@
         <form>
           <div class="row">
             <div class="form-group col-lg-4">
-              <label class="text-heading">Name</label>
+              <label class="text-heading">Имя</label>
               <input type="text" class="form-control">
             </div>
             <div class="form-group col-lg-4">
-              <label class="text-heading">Email Address</label>
+              <label class="text-heading">Email</label>
               <input type="email" class="form-control">
             </div>
             <div class="form-group col-lg-4">
-              <label class="text-heading">Phone Number</label>
+              <label class="text-heading">Номер телефона</label>
               <input type="tel" class="form-control">
             </div>
             <div class="clearfix"></div>
             <div class="form-group col-lg-12">
-              <label class="text-heading">Message</label>
+              <label class="text-heading">Сообщение</label>
               <textarea class="form-control" rows="6"></textarea>
             </div>
             <div class="form-group col-lg-12">
-              <button type="submit" class="btn btn-secondary">Submit</button>
+              <button type="submit" class="btn btn-secondary">Отправить</button>
             </div>
           </div>
         </form>
