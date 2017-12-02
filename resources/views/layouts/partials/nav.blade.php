@@ -5,7 +5,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <a class="nav-link text-uppercase text-expanded left " href="{{ url('/') }}">Ipega.com.ua
+            <a class="nav-link text-uppercase text-expanded left  " href="{{ url('/') }}"><img class="hi" src="{{ asset('img/ip.png') }}">
            
               </a>
            <ul class="navbar-nav mx-auto">
