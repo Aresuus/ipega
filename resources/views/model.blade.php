@@ -28,103 +28,24 @@
         </h2>
         <hr class="divider">
         <div class="row">
+            @foreach($products as $product)
           <div class="col-md-4 mb-4 mb-md-0">
             <div class="card h-100">
               <img class="card-img-top" src="{{ asset('img/9055/9055prev.jpg') }}" alt="">
               <div class="card-body text-center">
-                <h4 class="card-title m-0">Ipega
-                  <small class="text-muted">PG-9055</small>
+                <h4 class="card-title m-0">{{ $product->product }} {{ $product->name }}
+                  <small class="text-muted">{{ $product->model }}</small>
                 </h4>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100">
-              <img class="card-img-top" src="{{ asset('img/9017s/9017sprev.jpg') }}" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Ipega
-                  <small class="text-muted">PG-9017s</small>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img class="card-img-top" src="{{ asset('img/9025/9025prev.jpg') }}" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Ipega
-                  <small class="text-muted">PG-9025</small>
-                </h4>
-              </div>
-            </div>
-          </div>
+            <br>
+            @endforeach
+    
         </div>
-        <br>
-        <div class="row">
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100">
-              <img class="card-img-top" src="{{ asset('img/9028/9028prev.jpg') }}" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Ipega
-                  <small class="text-muted">PG-9028</small>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100">
-              <img class="card-img-top" src="{{ asset('img/9021/9021prev.jpg') }}" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Ipega
-                  <small class="text-muted">PG-9021</small>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img class="card-img-top" src="{{ asset('img/9035/9035prev.jpg') }}" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Ipega
-                  <small class="text-muted">PG-9035</small>
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>    
-        <br>
-        <div class="row">
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100">
-              <img class="card-img-top" src="{{ asset('img/9037/9037prev.jpg') }}" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Ipega
-                  <small class="text-muted">PG-9037</small>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100">
-              <img class="card-img-top" src="{{ asset('img/9038/9038prev.jpg') }}" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Ipega
-                  <small class="text-muted">PG-9038</small>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img class="card-img-top" src="{{ asset('img/9057/9057prev.jpg') }}" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Ipega
-                  <small class="text-muted">PG-9057</small>
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
+       
+   
+       
       </div>
 
     </div>

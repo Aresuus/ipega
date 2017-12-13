@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Product;
+use App;
+use File;
 
 class ModelController extends Controller
 {
@@ -14,7 +17,10 @@ class ModelController extends Controller
      */
     public function index()
     {
-        return view('model');
+        $products = Product::all();
+        return view('model',[
+            'products' => $products
+        ]);
     }
 
     /**
